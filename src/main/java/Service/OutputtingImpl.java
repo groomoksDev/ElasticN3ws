@@ -1,6 +1,6 @@
-package service;
+package Service;
 
-import newsModel.Article;
+import DAO.Article;
 
 public class OutputtingImpl implements Outputting {
     @Override

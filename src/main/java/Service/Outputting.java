@@ -1,6 +1,6 @@
-package service;
+package Service;
 
-import newsModel.Article;
+import DAO.Article;
 
 public interface Outputting {
     Article getArticleById(Long id);

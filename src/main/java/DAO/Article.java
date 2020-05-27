@@ -1,4 +1,4 @@
-package newsModel;
+package DAO;
 
 import org.springframework.stereotype.Repository;
 

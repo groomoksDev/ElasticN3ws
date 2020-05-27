@@ -1,12 +1,12 @@
-package newsApi;
+package Api;
 
 import io.swagger.annotations.SwaggerDefinition;
-import newsModel.Article;
+import DAO.Article;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.Outputting;
-import service.OutputtingImpl;
+import Service.Outputting;
+import Service.OutputtingImpl;
 
 @RestController
 @SwaggerDefinition
